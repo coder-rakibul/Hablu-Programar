@@ -1,0 +1,63 @@
+*,*::after,*::before, body{
+    margin: 0;
+    padding: 0;
+}
+
+header> div> div> img{
+    width: 300px;
+}
+header div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: relative;
+}
+i.fas.fa-moon {
+    position: absolute;
+    display: flex;
+    justify-items: right;
+    margin: 21px;
+    font-size: 32px;
+    color: #3D2D00;
+    cursor: pointer;
+}
+span#btn {
+    position: absolute;
+    display: flex;
+    justify-items: right;
+    margin: 21px;
+    font-size: 32px;
+    color: #3D2D00;
+    cursor: pointer;
+}
+/* i.fas.fa-sun {
+    position: absolute;
+    display: flex;
+    justify-items: right;
+    margin: 21px;
+    font-size: 32px;
+    color: #3D2D00;
+    cursor: pointer;
+    visibility: hidden;
+} */
+img{
+    width: 400px;
+}
+.body{
+    width: 100%;
+    height: 100vh;
+}
+.thame{
+    background: #333;
+}
+.thame span i.fa-moon{
+    visibility: hidden;
+}
+.thame span::before{
+    content: "🌞";
+}
+
