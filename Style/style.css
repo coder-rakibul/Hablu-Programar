@@ -52,12 +52,16 @@ img{
     height: 100vh;
 }
 .thame{
-    background: #333;
+    background: rgb(58, 57, 57);
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
 }
-.thame span i.fa-moon{
+.thame span p{
     visibility: hidden;
 }
 .thame span::before{
     content: "🌞";
 }
-
